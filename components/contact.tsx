@@ -1,6 +1,7 @@
 "use client"
 
 import type React from "react"
+import emailjs from "emailjs-com"
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -19,26 +20,35 @@ export function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitMessage, setSubmitMessage] = useState("")
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitMessage("")
 
-    const form = e.target as HTMLFormElement
-    const formData = new FormData(form)
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+  setIsSubmitting(true)
+  setSubmitMessage("")
 
-    try {
-      const result = await sendContactEmail(formData)
-      if (result.success) {
-        setSubmitMessage("Message sent successfully! I'll get back to you soon.")
-        form.reset()
-      }
-    } catch (error) {
-      setSubmitMessage("Sorry, there was an error sending your message. Please try again.")
-    } finally {
-      setIsSubmitting(false)
+  try {
+    const result = await emailjs.sendForm(
+      "service_mhunvlr",     // Replace with your EmailJS service ID
+      "template_44kwkml",    // Replace with your EmailJS template ID
+      "#contact-form",       // This matches your form's ID
+      process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,      // Replace with your EmailJS public key
+     
+
+    )
+
+    if (result.status === 200) {
+      setSubmitMessage("Message sent successfully! I'll get back to you soon.")
+      setFormData({ name: "", email: "", subject: "", message: "" })
+    } else {
+      setSubmitMessage("Something went wrong. Please try again.")
     }
+  } catch (error) {
+    console.error("EmailJS error:", error)
+    setSubmitMessage("Sorry, there was an error sending your message.")
+  } finally {
+    setIsSubmitting(false)
   }
+}
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData((prev) => ({
@@ -250,7 +260,7 @@ export function Contact() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.
+              © 2025 Joaane Liszewski Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.
             </p>
           </div>
         </div>
