@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Github, Linkedin, FileText } from "lucide-react"
 import { ResumeModal } from "./resume-modal"
+import { ThemeToggle } from "./theme-toggle"
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
@@ -69,6 +70,7 @@ export function Navigation() {
                   </Button>
                 ))}
                 <div className="flex items-center space-x-4">
+                  <ThemeToggle />
                   <Button
                     variant="electric"
                     size="sm"
