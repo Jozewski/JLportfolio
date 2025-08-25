@@ -6,8 +6,8 @@ export async function sendContactEmail(formData: FormData) {
   const subject = formData.get("subject") as string
   const message = formData.get("message") as string
 
-  // For now, we'll simulate sending an email
-  // In production, you would integrate with an email service like Resend, SendGrid, etc.
+ 
+  // In production, integrate with an email service like Resend, SendGrid, etc.
   console.log("Contact form submission:", {
     to: "joanneliszewski@gmail.com",
     from: email,
