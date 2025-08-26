@@ -28,15 +28,78 @@ export function Projects() {
               className="bg-background border-border overflow-hidden hover:shadow-xl transition-all duration-300 group"
             >
               <div className="relative overflow-hidden">
-                <video
-                  src={project.video}
-                  controls
-                  loop
-                  playsInline
-                  preload="metadata"
-                  className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300 bg-black"
-                  style={{ backgroundColor: '#000' }}
-                />
+                {project.title === "Warm Wishes" ? (
+                  <iframe
+                    width="100%"
+                    height="384"
+                    src="https://www.youtube.com/embed/NIpmPtr01fM?si=EJJa87LxhSmCKbCt"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="w-full h-96 bg-black"
+                  />
+                ) : project.title === "Ask AI" ? (
+                  <iframe
+                    width="100%"
+                    height="384"
+                    src="https://www.youtube.com/embed/TZbh1p83Jr4?si=hdclkUGXb44pLzeY"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="w-full h-96 bg-black"
+                  />
+                ) : project.title === "Really Home" ? (
+                  <iframe
+                    width="100%"
+                    height="384"
+                    src="https://www.youtube.com/embed/lcUMpTMfb_U?si=_Zm-MhlqidwGBB0O"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="w-full h-96 bg-black"
+                  />
+                ) : project.title === "Real Chat" ? (
+                  <iframe
+                    width="100%"
+                    height="384"
+                    src="https://www.youtube.com/embed/Em4PJ1fJ5oc?si=krlEtb7lqNAhrNgh"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="w-full h-96 bg-black"
+                  />
+                ) : project.title === "Blog Platform" ? (
+                  <iframe
+                    width="100%"
+                    height="384"
+                    src="https://www.youtube.com/embed/BwP4WGUgPqM?si=9g1-toobVEVN9q_i"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                    className="w-full h-96 bg-black"
+                  />
+                ) : (
+                  <video
+                    src={project.video}
+                    controls
+                    loop
+                    muted
+                    playsInline
+                    preload="metadata"
+                    className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300 bg-black"
+                    style={{ backgroundColor: '#000' }}
+                  />
+                )}
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
               <CardHeader>
