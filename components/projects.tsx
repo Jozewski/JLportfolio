@@ -28,10 +28,14 @@ export function Projects() {
               className="bg-background border-border overflow-hidden hover:shadow-xl transition-all duration-300 group"
             >
               <div className="relative overflow-hidden">
-                <img
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                <video
+                  src={project.video}
+                  controls
+                  loop
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-96 object-cover group-hover:scale-105 transition-transform duration-300 bg-black"
+                  style={{ backgroundColor: '#000' }}
                 />
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
@@ -78,10 +82,14 @@ export function Projects() {
                 className="bg-background border-border hover:shadow-lg transition-all duration-300 group"
               >
                 <div className="relative overflow-hidden">
-                  <img
-                    src={project.image || "/placeholder.svg"}
-                    alt={project.title}
-                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  <video
+                    src={project.video}
+                    controls
+                    loop
+                    playsInline
+                    preload="metadata"
+                    className="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-300 bg-black"
+                    style={{ backgroundColor: '#000' }}
                   />
                 </div>
                 <CardHeader className="pb-2">
