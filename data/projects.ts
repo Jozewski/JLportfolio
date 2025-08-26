@@ -16,7 +16,7 @@ export const projects: Project[] = [
     video: "/videos/WarmWishes.mp4",
     technologies: ["React", "Redux Toolkit", "Express.js", "MongoDB", "Mongoose", "JWT", "Tailwind CSS", "Recharts"],
   liveUrl: "https://www.youtube.com/watch?v=NIpmPtr01fM",
-    githubUrl: "http://104.131.171.220/jliszewski/project-tracker.git",
+    githubUrl: "https://github.com/Jozewski/WarmWishes.git",
     featured: false,
   },
   {

@@ -30,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="icon" type="image/png" href="/about.png" />
         <style>{`
 html {
   font-family: ${sourceSans.style.fontFamily};
