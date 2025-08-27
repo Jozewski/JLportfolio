@@ -115,7 +115,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-muted-foreground">© {currentYear} Joanne Liszewski. All rights reserved.</p>
+            <p className="text-sm text-muted-foreground">© {currentYear} oanne Liszewski Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.</p>
             <div className="flex items-center space-x-6">
               {socialLinks.map((social) => {
                 const Icon = social.icon
