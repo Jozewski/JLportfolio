@@ -61,7 +61,7 @@ export const projects: Project[] = [
     video: "/videos/Blog.mp4",
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
   liveUrl: "https://www.youtube.com/watch?v=BwP4WGUgPqM",
-    githubUrl: "http://104.131.171.220/jliszewski/blog-platform.git",
+    githubUrl: "https://github.com/Jozewski/Blog.git",
     featured: true,
      videoId: "BwP4WGUgPqM"
   },
