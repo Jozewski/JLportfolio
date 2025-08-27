@@ -28,18 +28,11 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${playfairDisplay.variable} ${sourceSans.variable}`}> 
       <head>
         <link rel="icon" type="image/png" href="/about.png" />
-        <style>{`
-html {
-  font-family: ${sourceSans.style.fontFamily};
-  --font-heading: ${playfairDisplay.variable};
-  --font-body: ${sourceSans.variable};
-}
-        `}</style>
       </head>
-      <body className={`${playfairDisplay.variable} ${sourceSans.variable} antialiased`}>
+      <body className="antialiased">
         <Providers>{children}</Providers>
       </body>
     </html>
