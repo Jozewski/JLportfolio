@@ -5,8 +5,8 @@ import { ExternalLink, Github } from "lucide-react"
 import { projects } from "@/data/projects"
 
 export function Projects() {
-  // const featuredProjects = projects.filter((project) => project.featured)
-   const otherProjects = projects.filter((project) => !project.featured)
+  const featuredProjects = projects.filter((project) => project.featured === true)
+
 
   return (
     <section id="projects" className="py-20 bg-card">
@@ -22,7 +22,7 @@ export function Projects() {
 
         {/* Featured Projects */}
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {projects.map((project, index) => (
+          {featuredProjects.map((project, index) => (
             <Card
               key={index}
               className="bg-background border-border overflow-hidden hover:shadow-xl transition-all duration-300 group"
@@ -102,7 +102,7 @@ export function Projects() {
                 )}
                 <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>
-              <CardHeader>
+              {/* <CardHeader>
                 <div className="flex items-start justify-between">
                   <CardTitle className="font-heading text-xl font-bold text-foreground group-hover:text-primary transition-colors">
                     {project.title}
@@ -130,7 +130,7 @@ export function Projects() {
                     </Badge>
                   ))}
                 </div>
-              </CardContent>
+              </CardContent> */}
             </Card>
           ))}
         </div>
@@ -138,7 +138,7 @@ export function Projects() {
         {/* Other Projects Grid */}
         <div className="mt-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
-            {otherProjects.map((project, index) => (
+            {projects.map((project, index) => (
               <Card
                 key={index}
                 className="bg-background border-border hover:shadow-lg transition-all duration-300 group"
