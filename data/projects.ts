@@ -46,7 +46,7 @@ export const projects: Project[] = [
     video: "/videos/RealChat.mp4",
     technologies: ["React", "Express.js", "MongoDB", "Socket.io", "Passport.js", "Express Session", "Argon2"],
   liveUrl: "https://www.youtube.com/watch?v=Em4PJ1fJ5oc",
-    githubUrl: "http://104.131.171.220/jliszewski/real-chat.git",
+    githubUrl: "https://github.com/Jozewski/RealChat.git",
     featured: false,
   },
   {
