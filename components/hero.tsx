@@ -27,7 +27,7 @@ export function Hero() {
       </div>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <h1 className="font-heading lg:text-7xl font-bold mb-6 leading-tight text-5xl">
+  <h1 className="font-heading lg:text-7xl font-bold mb-6 leading-tight text-5xl mt-16">
           Joanne Liszewski
           <br />
           <span
