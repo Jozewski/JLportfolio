@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import emailjs from "emailjs-com"
+import emailjs from "@emailjs/browser"
 import { useState } from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
