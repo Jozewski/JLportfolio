@@ -5,6 +5,7 @@ export interface Project {
   technologies: string[]
   liveUrl: string
   githubUrl: string
+  videoId: string,
   featured: boolean
 }
 
@@ -17,7 +18,8 @@ export const projects: Project[] = [
     technologies: ["React", "Redux Toolkit", "Express.js", "MongoDB", "Mongoose", "JWT", "Tailwind CSS", "Recharts"],
   liveUrl: "https://www.youtube.com/watch?v=NIpmPtr01fM",
     githubUrl: "https://github.com/Jozewski/WarmWishes.git",
-    featured: false,
+    featured: true,
+    videoId: "NIpmPtr01fM"
   },
   {
     title: "Ask AI",
@@ -27,7 +29,8 @@ export const projects: Project[] = [
     technologies: ["React", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "React Markdown", "Express Session"],
   liveUrl: "https://www.youtube.com/watch?v=TZbh1p83Jr4",
     githubUrl: "http://104.131.171.220/jliszewski/ollama-ui.git",
-    featured: false,
+    featured: true,
+     videoId: "TZbh1p83Jr4"
   },
   {
     title: "Really Home",
@@ -37,7 +40,8 @@ export const projects: Project[] = [
     technologies: ["React", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "Axios"],
   liveUrl: "https://www.youtube.com/watch?v=lcUMpTMfb_U",
     githubUrl: "http://104.131.171.220/jliszewski/real-estate-project.git",
-    featured: false,
+    featured: true,
+     videoId: "lcUMpTMfb_U"
   },
   {
     title: "Real Chat",
@@ -47,7 +51,8 @@ export const projects: Project[] = [
     technologies: ["React", "Express.js", "MongoDB", "Socket.io", "Passport.js", "Express Session", "Argon2"],
   liveUrl: "https://www.youtube.com/watch?v=Em4PJ1fJ5oc",
     githubUrl: "https://github.com/Jozewski/RealChat.git",
-    featured: false,
+    featured: true,
+     videoId: "Em4PJ1fJ5oc"
   },
   {
     title: "Blog Platform",
@@ -57,6 +62,7 @@ export const projects: Project[] = [
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
   liveUrl: "https://www.youtube.com/watch?v=BwP4WGUgPqM",
     githubUrl: "http://104.131.171.220/jliszewski/blog-platform.git",
-    featured: false,
+    featured: true,
+     videoId: "BwP4WGUgPqM"
   },
 ]
