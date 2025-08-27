@@ -5,8 +5,8 @@ import { ExternalLink, Github } from "lucide-react"
 import { projects } from "@/data/projects"
 
 export function Projects() {
-  const featuredProjects = projects.filter((project) => project.featured)
-  const otherProjects = projects.filter((project) => !project.featured)
+  // const featuredProjects = projects.filter((project) => project.featured)
+   const otherProjects = projects.filter((project) => !project.featured)
 
   return (
     <section id="projects" className="py-20 bg-card">
@@ -22,7 +22,7 @@ export function Projects() {
 
         {/* Featured Projects */}
         <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {featuredProjects.map((project, index) => (
+          {projects.map((project, index) => (
             <Card
               key={index}
               className="bg-background border-border overflow-hidden hover:shadow-xl transition-all duration-300 group"
