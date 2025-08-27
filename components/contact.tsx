@@ -253,18 +253,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             </div>
           </div>
         </div>
-      </div>
-
-      {/* Footer */}
-      <footer className="mt-20 pt-8 border-t border-border">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <p className="text-muted-foreground text-sm">
-              © 2025 Joanne Liszewski Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.
-            </p>
-          </div>
-        </div>
-      </footer>
+      </div>    
     </section>
   )
 }
