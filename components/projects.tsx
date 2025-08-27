@@ -16,7 +16,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Full-stack applications built to solve real-world challenges and empower communities
+            Full-stack applications built to solve real-world challenges.
           </p>
         </div>
 
@@ -136,8 +136,7 @@ export function Projects() {
         </div>
 
         {/* Other Projects Grid */}
-        <div>
-          <h3 className="font-heading text-2xl font-bold text-card-foreground mb-8 text-center">More Projects</h3>
+        <div className="mt-16">
           <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
             {otherProjects.map((project, index) => (
               <Card
@@ -192,6 +191,7 @@ export function Projects() {
               </Card>
             ))}
           </div>
+          {/* <h3 className="font-heading text-2xl font-bold text-card-foreground mt-12 mb-8 text-center">More Projects</h3> */}
         </div>
       </div>
     </section>
