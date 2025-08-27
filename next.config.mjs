@@ -10,18 +10,20 @@ const nextConfig = {
     unoptimized: true,
   },
   async headers() {
-    return [
+  return [
       {
-        source: '/(.*)',
+        source: '/:path*',
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "frame-src 'self' https://www.youtube.com https://youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.youtube.com; object-src 'none'; media-src 'self' https://www.youtube.com;"
+            value: `
+              frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;
+            `.replace(/\s+/g, ' ').trim(),
           },
         ],
       },
-    ]
-  },
+    ];
+}
 }
 
 export default nextConfig
