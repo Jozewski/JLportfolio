@@ -13,7 +13,7 @@ export const projects: Project[] = [
   {
     title: "Warm Wishes",
     description:
-      "A Full Stack Web Application designed for Non Profit Organizations to manage donations, track contacts, and keep projects running smoothly. Provides warmth and comfort to vulnerable individuals during cold months.",
+      "Warm Wishes is a comprehensive full-stack web application crafted specifically for a non-profit organization. Its mission is to empower this organization by streamlining project management, donation tracking, and fostering operational efficiency, all from a single, easy-to-use platform.",
     video: "/videos/WarmWishes.mp4",
     technologies: ["React", "Redux Toolkit", "Express.js", "MongoDB", "Mongoose", "JWT", "Tailwind CSS", "Recharts"],
   liveUrl: "https://www.youtube.com/watch?v=NIpmPtr01fM",
