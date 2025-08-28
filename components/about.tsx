@@ -169,7 +169,7 @@ export function About() {
           </div>
 
           <div className="space-y-6">
-            <h3 className="font-heading text-2xl font-bold text-foreground">My Coding Journey</h3>
+            <h3 className="font-heading text-2xl font-bold text-foreground">From the Start...</h3>
             <p className="text-muted-foreground leading-relaxed">
               My coding journey began in 2014, when I started building GUI interfaces and programming solutions using
               technologies like C++ and JavaScript. Early on, I focused on creating intuitive user experiences for
