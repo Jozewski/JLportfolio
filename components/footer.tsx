@@ -69,19 +69,6 @@ export function Footer() {
               ))}
             </div>
           </div>
-
-          {/* Tech Stack */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-foreground">Tech Stack</h4>
-            <div className="space-y-2 text-sm text-muted-foreground">
-              <div>React & Next.js</div>
-              <div>TypeScript</div>
-              <div>Node.js & Express</div>
-              <div>MongoDB</div>
-              <div>Tailwind CSS</div>
-            </div>
-          </div>
-
           {/* Connect */}
           <div className="space-y-4">
             <h4 className="font-semibold text-foreground">Connect</h4>
@@ -110,6 +97,22 @@ export function Footer() {
               </div>
             </div>
           </div>
+
+          {/* Tech Stack */}
+          <div className="space-y-4">
+            <h4 className="font-semibold text-foreground">Tech Stack</h4>
+            <div className="space-y-2 text-sm text-muted-foreground">
+              <div>Next.js 14 - React framework with App Router</div>
+              <div>React 19 - Latest React with concurrent features</div>
+              <div>TypeScript - Type-safe development</div>
+              <div>Tailwind CSS v4 - Utility-first CSS framework</div>
+              <div>Radix UI - Accessible component primitives</div>
+              <div>Lucide React - Beautiful icon library</div>
+              <div>Geist Font - Modern typography</div>
+              <div>next-themes - Dark/light mode support</div>
+            </div>
+          </div>
+
         </div>
 
         {/* Bottom Section */}
