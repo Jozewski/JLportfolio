@@ -20,6 +20,11 @@ export function ThemeToggle() {
         checked={resolvedTheme === "dark"}
         onCheckedChange={(checked) => setTheme(checked ? "dark" : "light")}
         aria-label="Toggle dark mode"
+        className={
+          resolvedTheme === "light"
+            ? "border-2 border-primary shadow-md"
+            : ""
+        }
       />
       <Moon className="h-4 w-4 text-blue-600" />
     </div>
