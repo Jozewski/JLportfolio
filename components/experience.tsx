@@ -142,8 +142,8 @@ export function Experience() {
                     ) : (
                       <div className="relative rounded-lg overflow-hidden border border-border">
                         <Image
-                          src={experience.showcase.image || "/placeholder.svg"}
-                          alt={experience.showcase.alt}
+                          src={experience.showcase.images || "/placeholder.svg"}
+                          alt="Showcase image"
                           width={800}
                           height={500}
                           className="w-full h-auto object-cover"
