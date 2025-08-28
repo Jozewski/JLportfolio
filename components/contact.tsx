@@ -204,15 +204,16 @@ const handleSubmit = async (e: React.FormEvent) => {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {contactInfo.map((info, index) => (
-                    <div key={index} className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
+                    <div key={index} className="flex items-center gap-3 flex-wrap break-all">
+                      <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                         <info.icon className="h-4 w-4 text-primary" />
                       </div>
-                      <div>
+                      <div className="min-w-0 flex-1">
                         <div className="font-medium text-foreground text-sm">{info.label}</div>
                         <a
                           href={info.href}
-                          className="text-muted-foreground hover:text-primary transition-colors text-sm"
+                          className="text-muted-foreground hover:text-primary transition-colors text-sm break-all"
+                          style={{ wordBreak: 'break-all' }}
                         >
                           {info.value}
                         </a>
