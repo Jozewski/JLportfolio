@@ -28,7 +28,7 @@ export const projects: Project[] = [
     video: "/videos/AskAI.mp4",
     technologies: ["React", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "React Markdown", "Express Session"],
   liveUrl: "https://www.youtube.com/watch?v=TZbh1p83Jr4",
-    githubUrl: "http://104.131.171.220/jliszewski/ollama-ui.git",
+    githubUrl: "https://github.com/Jozewski/AskAI.git",
     featured: true,
      videoId: "TZbh1p83Jr4"
   },
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     video: "/videos/ReallyHome.mp4",
     technologies: ["React", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "Axios"],
   liveUrl: "https://www.youtube.com/watch?v=lcUMpTMfb_U",
-    githubUrl: "http://104.131.171.220/jliszewski/real-estate-project.git",
+    githubUrl: "https://github.com/Jozewski/ReallyHome.git",
     featured: true,
      videoId: "lcUMpTMfb_U"
   },
