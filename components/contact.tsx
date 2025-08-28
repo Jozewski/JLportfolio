@@ -197,7 +197,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 
           {/* Contact Information and Social Links */}
           <div className="space-y-8">
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <Card className="bg-background border-border h-full">
                 <CardHeader>
                   <CardTitle className="font-heading text-xl font-bold text-foreground">Contact Me</CardTitle>
