@@ -56,10 +56,11 @@ export function Experience() {
       location: "Glendale, AZ",
       period: "2012 - 2016",
       description:
-        "Led GUI development for digital newspaper platforms while managing customer service operations for major publications including The Arizona Republic, The Virginian Pilot, and The New York Post. Spearheaded the technical rollout of tablet applications.",
+        "GUI development for digital newspaper platforms while managing customer service operations for major publications.",
       achievements: [
         "Developed GUI interfaces using C++ and JavaScript for tablet applications",
-        "Led successful rollout of The Virginian Pilot's digital edition on iPad and Android",
+        "Provided technical support and training to clients, enhancing customer satisfaction",
+        "Led customer service team, improving response times and service quality",
         "Created user-centered designs following usability principles and user feedback",
         "Managed full development lifecycle from conception to implementation",
         "Collaborated with cross-functional teams throughout development process",
@@ -78,7 +79,7 @@ export function Experience() {
             label: "iPad",
           },
         ],
-        caption: "Digital newspaper interfaces I developed for tablet platforms in 2014",
+        caption: "Digital newspaper interfaces for tablet platforms in 2014",
       },
     },
   ]
