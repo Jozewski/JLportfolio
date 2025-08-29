@@ -116,7 +116,7 @@ export function Experience() {
     <section id="experience" className="py-20 bg-background">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4"></h2>
+          <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold text-foreground mb-4">My Journey</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
             A decade of programming evolution - from GUI development to modern
             full-stack applications
