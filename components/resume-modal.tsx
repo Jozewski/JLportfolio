@@ -18,8 +18,8 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
           <h2 className="text-xl font-heading font-bold text-primary">Resume</h2>
           <div className="flex items-center space-x-2">
             <a
-              href="/Joanne_Liszewski_Resume.pdf"
-              download="Joanne_Liszewski_Resume.pdf"
+              href="/JoanneLiszewskiResume_updated%20-%20Google%20Docs.pdf"
+              download="JoanneLiszewskiResume_updated - Google Docs.pdf"
               className="inline-flex items-center space-x-2 px-3 py-1.5 text-sm font-medium text-white bg-[#00bfff] hover:bg-[#0099cc] rounded-md transition-all duration-300 hover:shadow-[0_0_20px_rgba(0,191,255,0.5)]"
             >
               <Download className="h-4 w-4" />
