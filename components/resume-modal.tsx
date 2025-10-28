@@ -39,146 +39,144 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <h1 className="text-3xl font-heading font-bold text-primary mb-2">Joanne Liszewski</h1>
               <div className="flex flex-wrap justify-center items-center gap-4 text-sm text-muted-foreground">
                 <div className="flex items-center gap-1">
-                  <Phone className="h-4 w-4" />
-                  <span>(480) 310 9875</span>
-                </div>
-                <div className="flex items-center gap-1">
                   <Mail className="h-4 w-4" />
                   <span>joanneliszewski@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
-                  <span>Greater Phoenix Metro</span>
+                  <span>Mesa, Arizona, United States</span>
                 </div>
               </div>
             </div>
 
-            {/* Summary */}
+            {/* Professional Summary */}
             <div>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Summary</h2>
               <p className="text-sm leading-relaxed text-foreground">
-                I'm driven to partner with organizations that share my dedication to uplifting communities. By
-                leveraging technology as a catalyst for change, I strive to expand their reach, amplify their impact,
-                and streamline their efforts in delivering meaningful support across the globe. Through collaboration
-                and a shared commitment to purpose, we can create lasting, tangible change—one project, one community,
-                one life at a time.
+                Solution-oriented Technical Support Specialist and Full-Stack Developer with 4+ years of customer service leadership
+                experience and proven development skills. Combines frontline problem resolution expertise with hands-on coding
+                abilities in JavaScript, React, Node.js, and MongoDB. Track record of identifying patterns, creating automated
+                solutions, and translating technical concepts for diverse audiences. Eager to leverage support desk experience and
+                programming foundation to transition into full-stack development while delivering immediate impact through technical
+                problem-solving.
               </p>
             </div>
 
             {/* Technical Skills */}
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Technical Skills</h2>
+              <div className="space-y-3 text-sm">
+                <div>
+                  <strong>Programming & Development:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• Frontend: React, JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Tailwind CSS</div>
+                    <div>• Backend: Node.js, Express.js, REST APIs, MongoDB, NoSQL</div>
+                    <div>• Tools & Platforms: Git, GitHub, GitLab, Webpack, Docker</div>
+                    <div>• Cloud & Infrastructure: AWS (Lambda, S3), DigitalOcean</div>
+                    <div>• Methodologies: Agile, Scrum, Test-Driven Development, CI/CD</div>
+                  </div>
+                </div>
+                <div>
+                  <strong>Technical Support & Operations:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• CRM Platforms, Microsoft Office, Google Suite</div>
+                    <div>• Automated Workflows & Scripting</div>
+                    <div>• Knowledge Base Development</div>
+                    <div>• Cross-functional Collaboration</div>
+                    <div>• Issue Escalation & Resolution</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Professional Competencies */}
+            <div>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Competencies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                <div>• React, JavaScript, TypeScript</div>
-                <div>• Node.js, Express, Socket.io, MongoDB, NoSQL, REST</div>
-                <div>• Tailwind CSS, Bootstrap</div>
-                <div>• Git, GitHub, Gitlab</div>
-                <div>• Agile, Scrum, GitLab Issues, CICD</div>
+                <div>• Solution Architecture & Problem Pattern Recognition</div>
+                <div>• Technical Documentation & Knowledge Transfer</div>
+                <div>• Communication Excellence (Technical & Non-Technical Audiences)</div>
+                <div>• Process Optimization & Automation</div>
+                <div>• Remote Work & Time Management</div>
               </div>
             </div>
 
-            {/* Professional Skills */}
+            {/* Professional Experience */}
             <div>
-              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Skills</h2>
-              <div className="space-y-2 text-sm">
-                <div>
-                  <strong>Communication:</strong> Strong written and verbal communication skills
-                </div>
-                <div>
-                  <strong>Collaboration:</strong> Proven ability to work effectively within cross-functional teams
-                </div>
-                <div>
-                  <strong>Leadership:</strong> Experience leading through training, coaching, and performance management
-                </div>
-                <div>
-                  <strong>Problem-Solving & Critical Thinking:</strong> Ability to analyze client situations, identify
-                  root causes, develop solutions, and implement effective strategies
-                </div>
-                <div>
-                  <strong>Empathy & Compassion:</strong> Understanding the challenges faced by individuals and providing
-                  compassionate support
-                </div>
-                <div>
-                  <strong>Time Management & Organization:</strong> Successfully manages multiple projects simultaneously
-                  and prioritizes tasks effectively to meet deadlines consistently
-                </div>
-                <div>
-                  <strong>Adaptability & Flexibility:</strong> Comfortable learning new technologies, adjusting to
-                  changing project requirements
-                </div>
-              </div>
-            </div>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-4">Professional Experience</h2>
 
-            {/* Experience */}
-            <div>
-              <h2 className="text-lg font-heading font-semibold text-primary mb-4">Experience</h2>
-
-              {/* Full Stack Development */}
+              {/* Banyan Labs */}
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Full Stack Web Development</h3>
-                    <p className="text-sm text-muted-foreground">Persevere Coding • Phoenix, AZ</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Developer</h3>
+                    <p className="text-sm text-muted-foreground">Banyan Labs LLC</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2024-2025</span>
+                  <span className="text-sm text-muted-foreground">August 2025 – Present</span>
                 </div>
-                <p className="text-sm mb-3 leading-relaxed">
-                  Full Stack Developer with a strong background in both front-end and back-end development. Proficient
-                  in JavaScript, HTML5, CSS3, and familiar with modern React. Strong understanding of Node.js,
-                  Express.js, REST, and MongoDB. Skilled in Agile/Scrum methodologies, test-driven development, and
-                  continuous integration practices.
-                </p>
                 <div className="space-y-1 text-sm">
-                  <div>• Gained expertise in building responsive user interfaces using React</div>
-                  <div>• Mastered Node.js and REST design principles</div>
-                  <div>• Gained skills in database design and management using MongoDB and APIs</div>
-                  <div>• Learned backend frameworks and server setup with Express.js</div>
-                  <div>• Applied Agile methodology Scrum for efficient project management</div>
+                  <div>• Collaborate with development teams to troubleshoot and resolve complex technical issues in distributed environments</div>
+                  <div>• Build and optimize responsive user interfaces using React and modern JavaScript frameworks</div>
+                  <div>• Develop backend solutions using Node.js and Express.js with MongoDB database integration</div>
+                  <div>• Demonstrate strong problem-solving abilities and adaptability in fast-paced development projects</div>
+                  <div>• Apply version control best practices using Git for collaborative team-based development</div>
                 </div>
               </div>
 
-              {/* Housing Advocate */}
+              {/* Persevere */}
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">CCJ Housing Advocate / Shelter Coordinator</h3>
-                    <p className="text-sm text-muted-foreground">Coalition for Compassion and Justice • Prescott, AZ</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Web Development Program</h3>
+                    <p className="text-sm text-muted-foreground">Persevere • Phoenix, Arizona</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2016-2018</span>
+                  <span className="text-sm text-muted-foreground">August 2024 – June 2025</span>
                 </div>
-                <p className="text-sm mb-3 leading-relaxed">
-                  Provided comprehensive support to individuals and families experiencing homelessness or housing
-                  insecurity in Prescott. Responsibilities encompassed both direct client services and efficient
-                  management of shelter operations.
-                </p>
                 <div className="space-y-1 text-sm">
-                  <div>• Case Management & Advocacy: Provided individualized case management and advocacy</div>
-                  <div>• Housing Support & Outreach: Offered housing counseling and community outreach</div>
-                  <div>• Shelter Operations: Oversaw daily operations and program development</div>
-                  <div>• Resource Coordination: Leveraged relationships with organizations and agencies</div>
+                  <div>• Mastered full-stack development including React component architecture, state management, and event handling</div>
+                  <div>• Built RESTful APIs and backend services using Node.js and Express.js</div>
+                  <div>• Designed and implemented MongoDB database schemas and optimized queries for application performance</div>
+                  <div>• Applied Agile/Scrum methodology including Daily Standups, Sprint Retros, and iterative development practices</div>
+                  <div>• Developed debugging and troubleshooting skills to identify root causes and implement effective solutions</div>
+                  <div>• Collaborated with cross-functional teams using Git for version control and code management</div>
+                  <div>• Created automated workflows and scripts to streamline development processes</div>
                 </div>
               </div>
 
-              {/* Call Center Manager */}
+              {/* Turn Key Solutions */}
+              <div className="mb-6">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="font-semibold text-foreground">Customer Service Call Center Manager / GUI Programmer</h3>
+                    <p className="text-sm text-muted-foreground">Turn Key Solutions • Glendale, Arizona</p>
+                  </div>
+                  <span className="text-sm text-muted-foreground">May 2012 – October 2016</span>
+                </div>
+                <div className="space-y-1 text-sm">
+                  <div>• Managed technical support operations for major publications including The Arizona Republic and The Virginian Pilot</div>
+                  <div>• Served as first line of defense for complex technical issues, escalating system-level problems to development teams</div>
+                  <div>• Led successful rollout of The Virginian Pilot's digital edition on iPad and Android tablets (2014)</div>
+                  <div>• Created and maintained knowledge base documentation</div>
+                  <div>• Trained and mentored support staff on troubleshooting methodologies</div>
+                  <div>• Fostered a culture of excellence through solution-oriented approach</div>
+                  <div>• Translated technical concepts for non-technical users</div>
+                </div>
+              </div>
+
+              {/* Coalition for Compassion & Justice */}
               <div>
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">
-                      Customer Service Call Center Manager / GUI Programmer
-                    </h3>
-                    <p className="text-sm text-muted-foreground">TKS/Landmark Media • Glendale, AZ</p>
+                    <h3 className="font-semibold text-foreground">Housing Advocate / Shelter Coordinator</h3>
+                    <p className="text-sm text-muted-foreground">Coalition for Compassion & Justice • Prescott, Arizona</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2012-2016</span>
+                  <span className="text-sm text-muted-foreground">November 2016 – August 2018</span>
                 </div>
-                <p className="text-sm mb-3 leading-relaxed">
-                  Excelled as Call Center Manager for major news publications while leading the successful rollout of
-                  digital editions on iPad and Android tablets, demonstrating strategic planning and execution
-                  abilities.
-                </p>
                 <div className="space-y-1 text-sm">
-                  <div>• Leadership & Development: Managed team of call center agents with training and coaching</div>
-                  <div>• Customer-Centric Operations: Collaborated across departments for customer satisfaction</div>
-                  <div>• Process Optimization: Evaluated technology and processes for efficiency improvements</div>
-                  <div>• Full Development Lifecycle: Spearheaded GUI development using C++ and JavaScript</div>
+                  <div>• Provided empathetic, solution-oriented support to individuals experiencing complex, sensitive situations</div>
+                  <div>• Coordinated shelter operations and managed efficient communication between cross-functional teams</div>
+                  <div>• Demonstrated learning agility by quickly mastering new case management systems and processes</div>
+                  <div>• Built comprehensive documentation and knowledge resources for team members</div>
                 </div>
               </div>
             </div>
