@@ -53,12 +53,7 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Summary</h2>
               <p className="text-sm leading-relaxed text-foreground">
-                Solution-oriented Technical Support Specialist and Full-Stack Developer with 4+ years of customer service leadership
-                experience and proven development skills. Combines frontline problem resolution expertise with hands-on coding
-                abilities in JavaScript, React, Node.js, and MongoDB. Track record of identifying patterns, creating automated
-                solutions, and translating technical concepts for diverse audiences. Eager to leverage support desk experience and
-                programming foundation to transition into full-stack development while delivering immediate impact through technical
-                problem-solving.
+                Detail-oriented and mission-driven QA Analyst and Front-End Developer with 4+ years of experience ensuring high-quality, accessible, and user-centered digital products. Skilled in exploratory testing, accessibility validation, UX analysis, and collaboration with design and engineering teams. As a visually impaired professional, I bring a uniquely valuable perspective to accessibility testing, approaching applications from the same lens as the users who depend on inclusive design. Proficient in using modern QA tools, analytics, and AI-assisted testing to identify risks and improve product performance. Passionate about building sustainable, data-informed QA practices that align with delivering meaningful, inclusive, and excellent user experiences.
               </p>
             </div>
 
@@ -67,37 +62,57 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Technical Skills</h2>
               <div className="space-y-3 text-sm">
                 <div>
-                  <strong>Programming & Development:</strong>
+                  <strong>Languages and Frameworks:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Frontend: React, JavaScript, TypeScript, HTML5, CSS3, Sass, Bootstrap, Tailwind CSS</div>
-                    <div>• Backend: Node.js, Express.js, REST APIs, MongoDB, NoSQL</div>
-                    <div>• Tools & Platforms: Git, GitHub, GitLab, Webpack, Docker</div>
-                    <div>• Cloud & Infrastructure: AWS (Lambda, S3), DigitalOcean</div>
-                    <div>• Methodologies: Agile, Scrum, Test-Driven Development, CI/CD</div>
+                    <div>• HTML5, CSS3, JavaScript, TypeScript, React, Node.js, Express, MongoDB</div>
                   </div>
                 </div>
                 <div>
-                  <strong>Technical Support & Operations:</strong>
+                  <strong>Testing Tools:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• CRM Platforms, Microsoft Office, Google Suite</div>
-                    <div>• Automated Workflows & Scripting</div>
-                    <div>• Knowledge Base Development</div>
-                    <div>• Cross-functional Collaboration</div>
-                    <div>• Issue Escalation & Resolution</div>
+                    <div>• Chrome DevTools, Postman, GraphQL Clients, Session Replay, BrowserStack</div>
+                  </div>
+                </div>
+                <div>
+                  <strong>Accessibility Tools:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• Axe DevTools, Wave, NVDA/VoiceOver, Color Contrast Analyzer</div>
+                  </div>
+                </div>
+                <div>
+                  <strong>Automation and Monitoring:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• Familiar with CI/CD pipelines, synthetic monitoring, and automatable acceptance criteria</div>
+                  </div>
+                </div>
+                <div>
+                  <strong>Analytics and Performance:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• Google Analytics, Core Web Vitals, API Metrics, User Session Data</div>
+                  </div>
+                </div>
+                <div>
+                  <strong>Collaboration and Workflow:</strong>
+                  <div className="ml-4 space-y-1">
+                    <div>• Git, GitHub, GitLab, Agile, JIRA, Notion, Confluence</div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Professional Competencies */}
+            {/* Core Competencies */}
             <div>
-              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Competencies</h2>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Core Competencies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                <div>• Solution Architecture & Problem Pattern Recognition</div>
-                <div>• Technical Documentation & Knowledge Transfer</div>
-                <div>• Communication Excellence (Technical & Non-Technical Audiences)</div>
-                <div>• Process Optimization & Automation</div>
-                <div>• Remote Work & Time Management</div>
+                <div>• Exploratory and UX Testing (Web and Mobile)</div>
+                <div>• Accessibility Validation (WCAG 2.1 AA, Keyboard Navigation, Screen Reader Testing)</div>
+                <div>• Automated Testing Collaboration (UI/API Criteria and Synthetic Monitoring)</div>
+                <div>• Usability and Experience Quality Auditing</div>
+                <div>• Analytics, Logs, and Real-User Monitoring (RUM) Analysis</div>
+                <div>• QA Documentation and Reproducible Defect Reporting</div>
+                <div>• Agile / Scrum Team Participation and Cross-Functional Collaboration</div>
+                <div>• DevTools, Postman, GraphQL Clients, and API Spot Checks</div>
+                <div>• AI-Assisted Quality Tools and Testing Data Generation</div>
               </div>
             </div>
 
@@ -109,17 +124,18 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Full Stack Developer</h3>
-                    <p className="text-sm text-muted-foreground">Banyan Labs LLC</p>
+                    <h3 className="font-semibold text-foreground">Quality Assurance and Front-End Developer (Intern)</h3>
+                    <p className="text-sm text-muted-foreground">Banyan Labs – Remote</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">August 2025 – Present</span>
+                  <span className="text-sm text-muted-foreground">2025–Present</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Collaborate with development teams to troubleshoot and resolve complex technical issues in distributed environments</div>
-                  <div>• Build and optimize responsive user interfaces using React and modern JavaScript frameworks</div>
-                  <div>• Develop backend solutions using Node.js and Express.js with MongoDB database integration</div>
-                  <div>• Demonstrate strong problem-solving abilities and adaptability in fast-paced development projects</div>
-                  <div>• Apply version control best practices using Git for collaborative team-based development</div>
+                  <div>• Conduct exploratory and accessibility testing for web applications built in React and Node.js</div>
+                  <div>• Identify UX and performance issues, documenting reproducible defects with user impact summaries</div>
+                  <div>• Partner with developers to define automatable acceptance criteria and ensure comprehensive test coverage</div>
+                  <div>• Use Postman, DevTools, and analytics data to validate site behavior across browsers and devices</div>
+                  <div>• Participate in Agile ceremonies, collaborating with design and engineering teams to improve usability and experience correctness</div>
+                  <div>• Leverage AI-assisted tools to generate test ideas, streamline bug documentation, and enhance reporting workflows</div>
                 </div>
               </div>
 
@@ -127,56 +143,62 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Full Stack Web Development Program</h3>
-                    <p className="text-sm text-muted-foreground">Persevere • Phoenix, Arizona</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Web Development (Training)</h3>
+                    <p className="text-sm text-muted-foreground">Persevere – Phoenix, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">August 2024 – June 2025</span>
+                  <span className="text-sm text-muted-foreground">August 2024 – June 2025 (11 months)</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Mastered full-stack development including React component architecture, state management, and event handling</div>
-                  <div>• Built RESTful APIs and backend services using Node.js and Express.js</div>
-                  <div>• Designed and implemented MongoDB database schemas and optimized queries for application performance</div>
-                  <div>• Applied Agile/Scrum methodology including Daily Standups, Sprint Retros, and iterative development practices</div>
-                  <div>• Developed debugging and troubleshooting skills to identify root causes and implement effective solutions</div>
-                  <div>• Collaborated with cross-functional teams using Git for version control and code management</div>
-                  <div>• Created automated workflows and scripts to streamline development processes</div>
+                  <div>• Built accessible, responsive web applications using React, Node.js, Express, and MongoDB</div>
+                  <div>• Applied UX heuristics and accessibility testing methods during project development</div>
+                  <div>• Learned to design APIs, validate RESTful architecture, and integrate testing into builds</div>
+                  <div>• Conducted peer code reviews and debugging in collaborative, Agile environments</div>
+                  <div>• Gained experience analyzing Core Web Vitals and front-end performance metrics</div>
+                </div>
+              </div>
+
+              {/* Coalition for Compassion and Justice */}
+              <div className="mb-6">
+                <div className="flex justify-between items-start mb-2">
+                  <div>
+                    <h3 className="font-semibold text-foreground">Shelter Coordinator and Housing Advocate</h3>
+                    <p className="text-sm text-muted-foreground">Coalition for Compassion and Justice – Prescott, AZ</p>
+                  </div>
+                  <span className="text-sm text-muted-foreground">2016–2018</span>
+                </div>
+                <div className="space-y-1 text-sm">
+                  <div>• Maintained precise documentation and data accuracy across multi-agency systems</div>
+                  <div>• Advocated for accessibility and clarity in communication to improve client engagement</div>
+                  <div>• Strengthened operational processes through organization, empathy, and problem-solving</div>
                 </div>
               </div>
 
               {/* Turn Key Solutions */}
-              <div className="mb-6">
-                <div className="flex justify-between items-start mb-2">
-                  <div>
-                    <h3 className="font-semibold text-foreground">Customer Service Call Center Manager / GUI Programmer</h3>
-                    <p className="text-sm text-muted-foreground">Turn Key Solutions • Glendale, Arizona</p>
-                  </div>
-                  <span className="text-sm text-muted-foreground">May 2012 – October 2016</span>
-                </div>
-                <div className="space-y-1 text-sm">
-                  <div>• Managed technical support operations for major publications including The Arizona Republic and The Virginian Pilot</div>
-                  <div>• Served as first line of defense for complex technical issues, escalating system-level problems to development teams</div>
-                  <div>• Led successful rollout of The Virginian Pilot's digital edition on iPad and Android tablets (2014)</div>
-                  <div>• Created and maintained knowledge base documentation</div>
-                  <div>• Trained and mentored support staff on troubleshooting methodologies</div>
-                  <div>• Fostered a culture of excellence through solution-oriented approach</div>
-                  <div>• Translated technical concepts for non-technical users</div>
-                </div>
-              </div>
-
-              {/* Coalition for Compassion & Justice */}
               <div>
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Housing Advocate / Shelter Coordinator</h3>
-                    <p className="text-sm text-muted-foreground">Coalition for Compassion & Justice • Prescott, Arizona</p>
+                    <h3 className="font-semibold text-foreground">Customer Service Call Center Manager / GUI Programmer</h3>
+                    <p className="text-sm text-muted-foreground">Turn Key Solutions – Glendale, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">November 2016 – August 2018</span>
+                  <span className="text-sm text-muted-foreground">2012–2016</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Provided empathetic, solution-oriented support to individuals experiencing complex, sensitive situations</div>
-                  <div>• Coordinated shelter operations and managed efficient communication between cross-functional teams</div>
-                  <div>• Demonstrated learning agility by quickly mastering new case management systems and processes</div>
-                  <div>• Built comprehensive documentation and knowledge resources for team members</div>
+                  <div>• Supported front-end interface rollouts for tablet-based platforms used by major digital publications</div>
+                  <div>• Conducted user acceptance testing (UAT) for new features and updates</div>
+                  <div>• Supervised data entry accuracy, CMS updates, and technical troubleshooting</div>
+                </div>
+              </div>
+
+              {/* Education and Certifications */}
+              <div>
+                <h2 className="text-lg font-heading font-semibold text-primary mb-3">Education and Certifications</h2>
+                <div className="space-y-2 text-sm">
+                  <div>• IBM Data Analytics Certificate – Coursera (2023)</div>
+                  <div>• Full Stack Web Development – Persevere Coding Program (2024–2025)</div>
+                  <div>• Prompt Engineering for ChatGPT – Vanderbilt University (2025)</div>
+                  <div>• AWS Cloud Practitioner Essentials – Amazon Web Services (2025)</div>
+                  <div>• Learn Python Specialization – Scrimba (2025)</div>
+                  <div>• Columbia University - AI Engineering Principles - Currently Enrolled</div>
                 </div>
               </div>
             </div>
