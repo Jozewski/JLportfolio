@@ -44,7 +44,7 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                 </div>
                 <div className="flex items-center gap-1">
                   <MapPin className="h-4 w-4" />
-                  <span>Mesa, Arizona, United States</span>
+                  <span>Phoenix, Arizona, United States</span>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Summary</h2>
               <p className="text-sm leading-relaxed text-foreground">
-                Detail-oriented and mission-driven QA Analyst and Front-End Developer with 4+ years of experience ensuring high-quality, accessible, and user-centered digital products. Skilled in exploratory testing, accessibility validation, UX analysis, and collaboration with design and engineering teams. As a visually impaired professional, I bring a uniquely valuable perspective to accessibility testing, approaching applications from the same lens as the users who depend on inclusive design. Proficient in using modern QA tools, analytics, and AI-assisted testing to identify risks and improve product performance. Passionate about building sustainable, data-informed QA practices that align with delivering meaningful, inclusive, and excellent user experiences.
+                Mission-driven Full Stack Developer specializing in accessible, user-centered web applications. Experienced in building scalable solutions with React, Node.js, Express, and MongoDB, including authentication systems, RESTful APIs, and AI-powered features. Combines technical development skills with a deep understanding of accessibility and UX principles gained through both professional experience and lived perspective as a visually impaired developer. Proficient in modern development workflows, collaborative Agile environments, and creating inclusive digital experiences that prioritize both functionality and usability.
               </p>
             </div>
 
@@ -64,37 +64,37 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                 <div>
                   <strong>Languages and Frameworks:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• HTML5, CSS3, JavaScript, TypeScript, React, Node.js, Express, MongoDB</div>
+                    <div>• JavaScript (ES6+), TypeScript, HTML5, CSS3, React, Node.js, Express.js, MongoDB, Socket.io</div>
                   </div>
                 </div>
                 <div>
-                  <strong>Testing Tools:</strong>
+                  <strong>Frontend Technologies:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Chrome DevTools, Postman, GraphQL Clients, Session Replay, BrowserStack</div>
+                    <div>• Tailwind CSS, Bootstrap, Responsive Design, Component-Based Architecture</div>
                   </div>
                 </div>
                 <div>
-                  <strong>Accessibility Tools:</strong>
+                  <strong>Backend and Database:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Axe DevTools, Wave, NVDA/VoiceOver, Color Contrast Analyzer</div>
+                    <div>• RESTful API Development, NoSQL (MongoDB), JWT Authentication, Real-time Communication (Socket.io)</div>
                   </div>
                 </div>
                 <div>
-                  <strong>Automation and Monitoring:</strong>
+                  <strong>Development and Deployment Tools:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Familiar with CI/CD pipelines, synthetic monitoring, and automatable acceptance criteria</div>
+                    <div>• Git, GitHub, GitLab, VS Code, Vercel, Chrome DevTools, Postman</div>
                   </div>
                 </div>
                 <div>
-                  <strong>Analytics and Performance:</strong>
+                  <strong>Accessibility and Testing:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Google Analytics, Core Web Vitals, API Metrics, User Session Data</div>
+                    <div>• WCAG 2.1 AA Standards, Axe DevTools, NVDA/VoiceOver, Wave, Screen Reader Testing</div>
                   </div>
                 </div>
                 <div>
                   <strong>Collaboration and Workflow:</strong>
                   <div className="ml-4 space-y-1">
-                    <div>• Git, GitHub, GitLab, Agile, JIRA, Notion, Confluence</div>
+                    <div>• Agile/Scrum Methodologies, JIRA, Notion, Confluence, Code Reviews, CI/CD Pipelines</div>
                   </div>
                 </div>
               </div>
@@ -104,15 +104,18 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Core Competencies</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                <div>• Exploratory and UX Testing (Web and Mobile)</div>
-                <div>• Accessibility Validation (WCAG 2.1 AA, Keyboard Navigation, Screen Reader Testing)</div>
-                <div>• Automated Testing Collaboration (UI/API Criteria and Synthetic Monitoring)</div>
-                <div>• Usability and Experience Quality Auditing</div>
-                <div>• Analytics, Logs, and Real-User Monitoring (RUM) Analysis</div>
-                <div>• QA Documentation and Reproducible Defect Reporting</div>
-                <div>• Agile / Scrum Team Participation and Cross-Functional Collaboration</div>
-                <div>• DevTools, Postman, GraphQL Clients, and API Spot Checks</div>
-                <div>• AI-Assisted Quality Tools and Testing Data Generation</div>
+                <div>• Full-Stack Web Application Development</div>
+                <div>• RESTful API Design and Implementation</div>
+                <div>• Database Schema Design and Optimization</div>
+                <div>• Authentication and Authorization Systems (JWT, Role-Based Access Control)</div>
+                <div>• Real-Time Features and WebSocket Integration</div>
+                <div>• Responsive and Accessible UI/UX Development</div>
+                <div>• Component-Based Architecture with React</div>
+                <div>• AI Integration and Implementation</div>
+                <div>• Accessibility-First Development (WCAG 2.1 AA)</div>
+                <div>• Version Control and Collaborative Development</div>
+                <div>• Agile/Scrum Team Collaboration</div>
+                <div>• Performance Optimization and Core Web Vitals</div>
               </div>
             </div>
 
@@ -124,18 +127,20 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Quality Assurance and Front-End Developer (Intern)</h3>
-                    <p className="text-sm text-muted-foreground">Banyan Labs – Remote</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Developer</h3>
+                    <p className="text-sm text-muted-foreground">Banyan Labs LLC – Phoenix, Arizona, United States</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2025–Present</span>
+                  <span className="text-sm text-muted-foreground">August 2025 - February 2026</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Conduct exploratory and accessibility testing for web applications built in React and Node.js</div>
-                  <div>• Identify UX and performance issues, documenting reproducible defects with user impact summaries</div>
-                  <div>• Partner with developers to define automatable acceptance criteria and ensure comprehensive test coverage</div>
-                  <div>• Use Postman, DevTools, and analytics data to validate site behavior across browsers and devices</div>
-                  <div>• Participate in Agile ceremonies, collaborating with design and engineering teams to improve usability and experience correctness</div>
-                  <div>• Leverage AI-assisted tools to generate test ideas, streamline bug documentation, and enhance reporting workflows</div>
+                  <div>• Collaborated with my team on full-stack development for Procure Path, an AI-powered grant management platform designed to help nonprofits streamline their grant acquisition process. Built scalable solutions enabling organizations to analyze grant opportunities, track deadlines, and receive intelligent matching recommendations.</div>
+                  <div className="font-semibold mt-2">Key Achievements:</div>
+                  <div>• Developed comprehensive authentication and authorization system with role-based access control</div>
+                  <div>• Designed and optimized database schemas for grant document storage and AI analysis results</div>
+                  <div>• Built complex React components for document analysis dashboard and grant matching interface</div>
+                  <div>• Implemented RESTful API endpoints for document upload, processing, and reporting features</div>
+                  <div>• Integrated AI-powered document analysis and scoring algorithms into the platform</div>
+                  <div>• Created responsive UI components for freemium pricing model and subscription management</div>
                 </div>
               </div>
 

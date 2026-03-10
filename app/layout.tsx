@@ -32,7 +32,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" type="image/png" href="/about.png" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased" suppressHydrationWarning>
         <Providers>{children}</Providers>
       </body>
     </html>
