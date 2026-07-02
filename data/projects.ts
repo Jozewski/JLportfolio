@@ -12,6 +12,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Driver for my Drive",
+    description:
+      "A landing page for an automated Google Drive organization service that files documents into the right folders by subject — every hour, hands-free. Files are sorted automatically based on their content and moved into appropriately named folders without any manual effort.",
+    video: "/videos/Automation.mp4",
+    technologies: ["HTML5", "CSS3", "Google Fonts", "Responsive Design", "GitHub Pages"],
+    liveUrl: "https://jozewski.github.io/Automation/",
+    liveLabel: "Go to Live Site",
+    githubUrl: "https://github.com/Jozewski/Automation.git",
+    featured: true,
+    videoId: "X4Z0tQjaK-8"
+  },
+  {
     title: "Procure Path",
     description:
       "Procure Path is an AI-powered grant summary platform with a Next.js frontend and Express.js backend. Built with MongoDB, Mongoose, Clerk authentication, Tailwind CSS, Framer Motion, and Docker, it provides a clean foundation for grant document processing and management.",
