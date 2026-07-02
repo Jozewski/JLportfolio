@@ -32,6 +32,27 @@ export function Experience() {
       ],
     },
     {
+      title: "Driver for my Drive",
+      company: "Automated Google Drive Organization",
+      location: "Static Web Development",
+      period: "Deployed July 2, 2026",
+      description:
+        "Built a landing page for an automated Google Drive organization service that files documents into the right folders by subject — every hour, hands-free. The service reads files in your Drive, categorizes them by content, and moves them into appropriately named folders without any manual effort.",
+      achievements: [
+        "Created a professional landing page with custom dark teal color scheme",
+        "Implemented responsive design using CSS Grid and Flexbox for mobile-friendly layouts",
+        "Built visual before/after comparison showcasing Drive transformation",
+        "Designed email-based contact form with clear call-to-action for interested users",
+      ],
+      technologies: [
+        "HTML5",
+        "CSS3",
+        "Google Fonts",
+        "Responsive Design",
+        "GitHub Pages",
+      ],
+    },
+    {
       title: "Procure Path",
       company: "Banyan Labs",
       location: "Team-Based Full-Stack Development",
@@ -60,7 +81,7 @@ export function Experience() {
       title: "Four Tables",
       company: "Family Recipe Archive",
       location: "Full-Stack Development",
-      period: "Launched 6/18/2026",
+      period: "Deployed June 18, 2026",
       description:
         "Built Four Tables, a full-stack family recipe archive organized around Italian, Dutch, German, and Mexican traditions. The application preserves family cooking knowledge with public recipe browsing, structured recipe details, contributor-only content management, family notes, image uploads, and OpenAI-assisted recipe drafting.",
       achievements: [
@@ -87,7 +108,7 @@ export function Experience() {
       title: "Know Your Federal Rights",
       company: "Plain-English Rights Education",
       location: "Static Web Development",
-      period: "Deployed May 2026",
+      period: "Deployed May 15, 2026",
       description:
         "Built Know Your Federal Rights, a free educational website that brings plain-language federal and state rights information into one accessible place for justice-impacted individuals, families, and support organizations. The site covers seven core rights topics with federal guidance and state-specific versions for all 50 states.",
       achievements: [

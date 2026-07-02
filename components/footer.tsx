@@ -9,7 +9,9 @@ export function Footer() {
     }
   }
 
-  const currentYear = 2025
+  const startYear = 2025
+  const currentYear = new Date().getFullYear()
+  const yearDisplay = currentYear > startYear ? `${startYear}-${currentYear}` : `${startYear}`
 
   const quickLinks = [
     { id: "hero", label: "Home" },
@@ -118,7 +120,7 @@ export function Footer() {
         {/* Bottom Section */}
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-muted-foreground">© {currentYear} Joanne Liszewski Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.</p>
+            <p className="text-sm text-muted-foreground">© {yearDisplay} Joanne Liszewski Full-Stack Developer Portfolio. Built with Next.js and Tailwind CSS.</p>
             <div className="flex items-center space-x-6">
               {socialLinks.map((social) => {
                 const Icon = social.icon

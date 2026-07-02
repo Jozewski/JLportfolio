@@ -43,13 +43,13 @@ export function Projects() {
                   <div className="flex gap-2">
                     {project.githubUrl && (
                       <Button size="sm" variant="ghost" asChild>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="View GitHub repository">
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} on GitHub`}>
                           <Github className="h-4 w-4" />
                         </a>
                       </Button>
                     )}
                     <Button size="sm" variant="ghost" asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label={project.liveLabel || "View live project"}>
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} live${project.liveLabel ? ` - ${project.liveLabel}` : ''}`}>
                         {project.liveLabel && <span className="mr-2">{project.liveLabel}</span>}
                         <ExternalLink className="h-4 w-4" />
                       </a>
@@ -97,13 +97,13 @@ export function Projects() {
                   <div className="flex gap-2">
                     {project.githubUrl && (
                       <Button size="sm" variant="ghost" asChild>
-                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label="View GitHub repository">
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} on GitHub`}>
                           <Github className="h-4 w-4" />
                         </a>
                       </Button>
                     )}
                     <Button size="sm" variant="ghost" asChild>
-                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label={project.liveLabel || "View live project"}>
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label={`View ${project.title} live${project.liveLabel ? ` - ${project.liveLabel}` : ''}`}>
                         {project.liveLabel && <span className="mr-2">{project.liveLabel}</span>}
                         <ExternalLink className="h-4 w-4" />
                       </a>
