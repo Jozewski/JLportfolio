@@ -93,7 +93,7 @@ export const TechIcons = {
     <Code className="h-5 w-5 text-[#646CFF] transition-transform duration-300 hover:scale-110 hover:rotate-12" />
   ),
   Mongoose: () => <Database className="h-5 w-5 text-[#880000] transition-transform duration-300 hover:scale-110" />,
-  JWT: () => <Code className="h-5 w-5 text-[#000000] transition-transform duration-300 hover:scale-110" />,
+  JWT: () => <Code className="h-5 w-5 text-[#FFFFFF] transition-transform duration-300 hover:scale-110" />,
   Axios: () => <Globe className="h-5 w-5 text-[#5A29E4] transition-transform duration-300 hover:scale-110" />,
   Passport: () => <Code className="h-5 w-5 text-[#34E27A] transition-transform duration-300 hover:scale-110" />,
   Mobile: () => <Smartphone className="h-5 w-5 text-[#61DAFB] transition-transform duration-300 hover:scale-110" />,
@@ -101,46 +101,56 @@ export const TechIcons = {
 
 const skillCategories = [
   {
-    title: "Frontend",
+    title: "Frontend & UI",
     icon: Globe,
     color: "text-primary",
     skills: [
+      { name: "Next.js / App Router", icon: TechIcons.React },
       { name: "React", icon: TechIcons.React },
-      { name: "JavaScript (ES6+)", icon: TechIcons.JavaScript },
-      { name: "HTML5/CSS3", icon: TechIcons.HTML5 },
+      { name: "TypeScript / JavaScript", icon: TechIcons.JavaScript },
       { name: "Tailwind CSS", icon: TechIcons.TailwindCSS },
+      { name: "HTML5 / CSS3", icon: TechIcons.HTML5 },
+      { name: "Responsive & Accessible UI", icon: TechIcons.Mobile },
     ],
   },
   {
-    title: "Backend",
+    title: "Backend & APIs",
     icon: Database,
     color: "text-accent",
     skills: [
       { name: "Node.js", icon: TechIcons.NodeJS },
       { name: "Express.js", icon: TechIcons.Express },
-      { name: "MongoDB", icon: TechIcons.MongoDB },
+      { name: "REST API Design", icon: TechIcons.Axios },
+      { name: "Server Actions / API Routes", icon: TechIcons.Vite },
       { name: "Socket.io", icon: TechIcons.SocketIO },
+      { name: "Session & Cookie Workflows", icon: TechIcons.Vite },
     ],
   },
   {
-    title: "Tools",
+    title: "Data, Auth & AI",
     icon: Code,
     color: "text-chart-3",
     skills: [
-      { name: "VS Code", icon: TechIcons.VSCode },
-      { name: "GitLab", icon: TechIcons.GitLab },
-      { name: "GitHub", icon: TechIcons.GitHub },
-      { name: "Vercel", icon: TechIcons.Vercel },
+      { name: "MongoDB / Mongoose", icon: TechIcons.MongoDB },
+      { name: "PostgreSQL / Neon", icon: TechIcons.Mongoose },
+      { name: "Prisma ORM", icon: TechIcons.Mongoose },
+      { name: "Clerk Authentication", icon: TechIcons.Passport },
+      { name: "OpenAI API Integration", icon: TechIcons.Vite },
+      { name: "Structured Content Models", icon: TechIcons.Mongoose },
     ],
   },
   {
-    title: "Mobile",
+    title: "Testing & Delivery",
     icon: Smartphone,
     color: "text-chart-4",
     skills: [
-      { name: "Responsive Design", icon: TechIcons.Mobile },
-      { name: "Progressive Web Apps", icon: TechIcons.Mobile },
-      { name: "Cross-Platform", icon: TechIcons.Mobile },
+      { name: "GitHub", icon: TechIcons.GitHub },
+      { name: "Vercel", icon: TechIcons.Vercel },
+      { name: "GitHub Pages / Actions", icon: TechIcons.GitHub },
+      { name: "Docker", icon: TechIcons.Vite },
+      { name: "Vitest / React Testing Library", icon: TechIcons.Vite },
+      { name: "Playwright QA", icon: TechIcons.Vite },
+      { name: "Workflow Automation", icon: TechIcons.Vite },
     ],
   },
 ]
@@ -179,10 +189,11 @@ export function About() {
               for clean, user-centered development and laid the groundwork for everything I have pursued since.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              As technology evolved rapidly, I recognized the need to modernize my skillset and embarked on a new
-              adventure in 2024, diving deep into modern web development with React, Node.js, and full-stack
-              technologies. This journey has allowed me to combine my foundational programming experience with
-              cutting-edge frameworks to build applications that truly make a difference.
+              As technology continues to evolve rapidly, I stay committed to learning, adapting, and expanding my
+              toolkit. I have built on my earlier programming foundation by diving deeper into modern full-stack
+              development, automation, cloud deployment, AI-assisted workflows, and accessible user experiences. That
+              ongoing growth allows me to turn new tools into practical applications that solve real problems for
+              people, families, and organizations.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               What drives me is the sheer joy of seeing something I built actually work and make a difference. I

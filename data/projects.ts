@@ -4,12 +4,48 @@ export interface Project {
   video: string // path to mp4 video
   technologies: string[]
   liveUrl: string
-  githubUrl: string
+  liveLabel?: string
+  githubUrl?: string
   videoId: string,
   featured: boolean
 }
 
 export const projects: Project[] = [
+  {
+    title: "Procure Path",
+    description:
+      "Procure Path is an AI-powered grant summary platform with a Next.js frontend and Express.js backend. Built with MongoDB, Mongoose, Clerk authentication, Tailwind CSS, Framer Motion, and Docker, it provides a clean foundation for grant document processing and management.",
+    video: "/videos/ProcurePath.mp4",
+    technologies: ["Next.js", "TypeScript", "Express.js", "MongoDB", "Mongoose", "Clerk", "Tailwind CSS", "Framer Motion", "Docker"],
+    liveUrl: "https://procurepath.ojt.banyanlabs.io/",
+    liveLabel: "Go to Live Site",
+    featured: true,
+    videoId: "FBkyptgomBU"
+  },
+  {
+    title: "Four Tables",
+    description:
+      "Four Tables is a full-stack family recipe archive built around Italian, Dutch, German, and Mexican traditions. Public visitors can browse recipes by tradition, holiday, and category, while invited contributors can create, edit, archive, upload family images, add notes, and use OpenAI-assisted drafting to preserve family cooking knowledge.",
+    video: "/videos/FourTables.mp4",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL", "Neon", "OpenAI API", "Vitest", "Playwright", "Vercel"],
+    liveUrl: "https://jozewski.tech/",
+    liveLabel: "Go to Live Site",
+    githubUrl: "https://github.com/Jozewski/Four_Tables.git",
+    featured: true,
+    videoId: "ziE8djsfve0"
+  },
+  {
+    title: "Know Your Federal Rights",
+    description:
+      "Know Your Federal Rights is a free, static educational website that presents plain-English federal and state rights information for justice-impacted individuals, families, and support organizations. It covers seven core rights topics with a federal and state-specific view for all 50 states, including search, quick-jump topic navigation, responsive layouts, and accessible interaction patterns.",
+    video: "/videos/KnowYourFederalRights.mp4",
+    technologies: ["HTML5", "CSS3", "Vanilla JavaScript", "Structured Data", "GitHub Pages", "GitHub Actions", "Accessibility"],
+    liveUrl: "https://jozewski.github.io/know-your-federal-rights/",
+    liveLabel: "Go to Live Site",
+    githubUrl: "https://github.com/Jozewski/know-your-federal-rights.git",
+    featured: true,
+    videoId: "VBk8mNtf17c"
+  },
   {
     title: "Warm Wishes",
     description:

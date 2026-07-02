@@ -197,14 +197,14 @@ const handleSubmit = async (e: React.FormEvent) => {
 
           {/* Contact Information and Social Links */}
           <div className="space-y-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 gap-6">
               <Card className="bg-background border-border h-full">
                 <CardHeader>
                   <CardTitle className="font-heading text-xl font-bold text-foreground">Contact Me</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   {contactInfo.map((info, index) => (
-                    <div key={index} className="flex items-center gap-3 flex-wrap break-all">
+                    <div key={index} className="flex items-center gap-3 min-w-0">
                       <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
                         <info.icon className="h-4 w-4 text-primary" />
                       </div>
@@ -212,8 +212,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                         <div className="font-medium text-foreground text-sm">{info.label}</div>
                         <a
                           href={info.href}
-                          className="text-muted-foreground hover:text-primary transition-colors text-sm break-all"
-                          style={{ wordBreak: 'break-all' }}
+                          className="text-muted-foreground hover:text-primary transition-colors text-sm whitespace-nowrap"
                         >
                           {info.value}
                         </a>
