@@ -93,7 +93,7 @@ export const TechIcons = {
     <Code className="h-5 w-5 text-[#646CFF] transition-transform duration-300 hover:scale-110 hover:rotate-12" />
   ),
   Mongoose: () => <Database className="h-5 w-5 text-[#880000] transition-transform duration-300 hover:scale-110" />,
-  JWT: () => <Code className="h-5 w-5 text-[#FFFFFF] transition-transform duration-300 hover:scale-110" />,
+  JWT: () => <Code className="h-5 w-5 text-black dark:text-white transition-transform duration-300 hover:scale-110" />,
   Axios: () => <Globe className="h-5 w-5 text-[#5A29E4] transition-transform duration-300 hover:scale-110" />,
   Passport: () => <Code className="h-5 w-5 text-[#34E27A] transition-transform duration-300 hover:scale-110" />,
   Mobile: () => <Smartphone className="h-5 w-5 text-[#61DAFB] transition-transform duration-300 hover:scale-110" />,

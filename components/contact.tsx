@@ -67,7 +67,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     {
       icon: MapPin,
       label: "Location",
-      value: "Mesa, Arizona",
+      value: "Phoenix, Arizona",
       href: "#",
     },
   ]
@@ -212,7 +212,8 @@ const handleSubmit = async (e: React.FormEvent) => {
                         <div className="font-medium text-foreground text-sm">{info.label}</div>
                         <a
                           href={info.href}
-                          className="text-muted-foreground hover:text-primary transition-colors text-sm whitespace-nowrap"
+                          className="text-muted-foreground hover:text-primary transition-colors text-sm truncate block"
+                          title={info.value}
                         >
                           {info.value}
                         </a>
