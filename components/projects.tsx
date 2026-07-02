@@ -41,13 +41,16 @@ export function Projects() {
                     {project.title}
                   </CardTitle>
                   <div className="flex gap-2">
-                    <Button size="sm" variant="ghost" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4" />
-                      </a>
-                    </Button>
+                    {project.githubUrl && (
+                      <Button size="sm" variant="ghost" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-4 w-4" />
+                        </a>
+                      </Button>
+                    )}
                     <Button size="sm" variant="ghost" asChild>
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        {project.liveLabel && <span className="mr-2">{project.liveLabel}</span>}
                         <ExternalLink className="h-4 w-4" />
                       </a>
                     </Button>
@@ -92,13 +95,16 @@ export function Projects() {
                     {project.title}
                   </CardTitle>
                   <div className="flex gap-2">
-                    <Button size="sm" variant="ghost" asChild>
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                        <Github className="h-4 w-4" />
-                      </a>
-                    </Button>
+                    {project.githubUrl && (
+                      <Button size="sm" variant="ghost" asChild>
+                        <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                          <Github className="h-4 w-4" />
+                        </a>
+                      </Button>
+                    )}
                     <Button size="sm" variant="ghost" asChild>
                       <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        {project.liveLabel && <span className="mr-2">{project.liveLabel}</span>}
                         <ExternalLink className="h-4 w-4" />
                       </a>
                     </Button>
