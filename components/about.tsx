@@ -215,7 +215,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
-              <div className="w-120 h-150 overflow-hidden rounded-lg shadow-2xl border-2 border-primary/20">
+              <div className="w-full max-w-md aspect-[4/5] overflow-hidden rounded-lg shadow-2xl border-2 border-primary/20">
                 <img
                   src="/profile-photo.png"
                   alt="Joanne Liszewski - Professional Photo"
