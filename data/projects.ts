@@ -12,6 +12,18 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "Be In The Know · Just Ask JO",
+    description:
+      "Plain-English legal rights education platform for people navigating reentry. JO translates approved legal source material into accessible guidance across voting rights, expungement, housing, employment, and more — for all 50 states plus federal law. Built with retrieval-first AI, human review gates, and source discipline to ensure every answer is grounded in cited, approved legal content.",
+    video: "/videos/BeInTheKnow.mp4",
+    technologies: ["Next.js", "React", "TypeScript", "Tailwind CSS", "MongoDB", "Google Gemini", "Vercel", "LegiScan API", "Vector Search"],
+    liveUrl: "https://beintheknowjustaskjo.com/",
+    liveLabel: "Go to Live Site",
+    githubUrl: "https://github.com/Jozewski/beintheknow.git",
+    featured: true,
+    videoId: "CS82uEUTfX0"
+  },
+  {
     title: "Driver for my Drive",
     description:
       "A landing page for an automated Google Drive organization service that files documents into the right folders by subject — every hour, hands-free. Files are sorted automatically based on their content and moved into appropriately named folders without any manual effort.",

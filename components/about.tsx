@@ -97,6 +97,40 @@ export const TechIcons = {
   Axios: () => <Globe className="h-5 w-5 text-[#5A29E4] transition-transform duration-300 hover:scale-110" />,
   Passport: () => <Code className="h-5 w-5 text-[#34E27A] transition-transform duration-300 hover:scale-110" />,
   Mobile: () => <Smartphone className="h-5 w-5 text-[#61DAFB] transition-transform duration-300 hover:scale-110" />,
+  Python: () => (
+    <svg className="h-5 w-5 transition-transform duration-300 hover:scale-110" viewBox="0 0 24 24" fill="url(#pythonGradient)">
+      <defs>
+        <linearGradient id="pythonGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#3776AB" />
+          <stop offset="100%" stopColor="#FFD43B" />
+        </linearGradient>
+      </defs>
+      <path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z" />
+    </svg>
+  ),
+  CPlusPlus: () => (
+    <svg className="h-5 w-5 transition-transform duration-300 hover:scale-110" viewBox="0 0 24 24" fill="#00599C">
+      <path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z" />
+    </svg>
+  ),
+  Gemini: () => (
+    <svg className="h-5 w-5 transition-transform duration-300 hover:scale-110" viewBox="0 0 24 24" fill="#8E75B2">
+      <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 3.6c4.635 0 8.4 3.765 8.4 8.4s-3.765 8.4-8.4 8.4-8.4-3.765-8.4-8.4 3.765-8.4 8.4-8.4zm0 2.4A6 6 0 1 0 12 18a6 6 0 0 0 0-12zm-1.2 3.6h2.4v4.8h-2.4V9.6z" />
+    </svg>
+  ),
+  Redux: () => (
+    <svg className="h-5 w-5 transition-transform duration-300 hover:scale-110" viewBox="0 0 24 24" fill="#764ABC">
+      <path d="M16.634 16.504c.87-.075 1.543-.84 1.5-1.754-.047-.914-.796-1.648-1.709-1.648h-.061c-.923.047-1.66.85-1.614 1.764.035.456.213.848.486 1.11-1.039 2.051-2.615 3.553-5.036 4.82-1.614.865-3.297 1.187-4.996 1.003-1.417-.17-2.52-.86-3.188-1.96-.955-1.563-1.04-3.258-.226-4.954.575-1.233 1.478-2.14 2.186-2.64-.09-.3-.21-.84-.264-1.217-4.537 3.263-4.123 7.7-2.667 9.8 1.092 1.565 3.368 2.548 5.748 2.548.674 0 1.363-.08 2.037-.246 4.142-.972 7.28-3.943 8.803-8.626zm6.963-6.863c-2.516-2.963-6.23-4.59-10.458-4.59h-.538c-.27-.54-.84-.9-1.485-.9h-.062c-.923.047-1.66.85-1.614 1.764.047.914.796 1.648 1.709 1.648h.062c.66-.047 1.23-.48 1.47-1.097h.6c2.52 0 4.905.738 7.103 2.19 1.687 1.097 2.895 2.548 3.598 4.305.614 1.472.57 2.894-.12 4.005-.99 1.68-2.668 2.595-4.84 2.595-1.417 0-2.776-.42-3.42-.737-.315.214-.84.572-1.216.78 1.154.527 2.337.84 3.496.84 2.595 0 5.036-1.097 6.536-3.043 1.562-2.08 1.478-5.643-.42-8.76z" />
+    </svg>
+  ),
+  Recharts: () => (
+    <svg className="h-5 w-5 transition-transform duration-300 hover:scale-110" viewBox="0 0 24 24" fill="#FF6492">
+      <path d="M3 3v18h18V3H3zm16 16H5V5h14v14zM7 17h2V9H7v8zm4 0h2V7h-2v10zm4 0h2v-6h-2v6z" />
+    </svg>
+  ),
+  FramerMotion: () => (
+    <Code className="h-5 w-5 text-[#0055FF] transition-transform duration-300 hover:scale-110" />
+  ),
 }
 
 const skillCategories = [
@@ -110,6 +144,8 @@ const skillCategories = [
       { name: "TypeScript / JavaScript", icon: TechIcons.JavaScript },
       { name: "Tailwind CSS", icon: TechIcons.TailwindCSS },
       { name: "HTML5 / CSS3", icon: TechIcons.HTML5 },
+      { name: "Framer Motion", icon: TechIcons.FramerMotion },
+      { name: "React Markdown", icon: TechIcons.React },
       { name: "Responsive & Accessible UI", icon: TechIcons.Mobile },
     ],
   },
@@ -119,6 +155,8 @@ const skillCategories = [
     color: "text-accent",
     skills: [
       { name: "Node.js", icon: TechIcons.NodeJS },
+      { name: "Python", icon: TechIcons.Python },
+      { name: "C++", icon: TechIcons.CPlusPlus },
       { name: "Express.js", icon: TechIcons.Express },
       { name: "REST API Design", icon: TechIcons.Axios },
       { name: "Server Actions / API Routes", icon: TechIcons.Vite },
@@ -133,9 +171,15 @@ const skillCategories = [
     skills: [
       { name: "MongoDB / Mongoose", icon: TechIcons.MongoDB },
       { name: "PostgreSQL / Neon", icon: TechIcons.Mongoose },
+      { name: "SQLite / better-sqlite3", icon: TechIcons.Mongoose },
       { name: "Prisma ORM", icon: TechIcons.Mongoose },
+      { name: "Redux Toolkit", icon: TechIcons.Redux },
+      { name: "Vector Search / Embeddings", icon: TechIcons.MongoDB },
       { name: "Clerk Authentication", icon: TechIcons.Passport },
+      { name: "Passport.js / Argon2", icon: TechIcons.Passport },
+      { name: "Google Gemini API", icon: TechIcons.Gemini },
       { name: "OpenAI API Integration", icon: TechIcons.Vite },
+      { name: "LegiScan API", icon: TechIcons.Axios },
       { name: "Structured Content Models", icon: TechIcons.Mongoose },
     ],
   },
@@ -149,7 +193,9 @@ const skillCategories = [
       { name: "GitHub Pages / Actions", icon: TechIcons.GitHub },
       { name: "Docker", icon: TechIcons.Vite },
       { name: "Vitest / React Testing Library", icon: TechIcons.Vite },
+      { name: "Pytest", icon: TechIcons.Python },
       { name: "Playwright QA", icon: TechIcons.Vite },
+      { name: "Recharts Visualization", icon: TechIcons.Recharts },
       { name: "Workflow Automation", icon: TechIcons.Vite },
     ],
   },
@@ -169,7 +215,7 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
-              <div className="w-80 h-96 overflow-hidden rounded-lg shadow-2xl border-2 border-primary/20">
+              <div className="w-120 h-150 overflow-hidden rounded-lg shadow-2xl border-2 border-primary/20">
                 <img
                   src="/profile-photo.png"
                   alt="Joanne Liszewski - Professional Photo"
@@ -206,7 +252,7 @@ export function About() {
                 10+ Years Experience
               </Badge>
               <Badge variant="secondary" className="bg-accent/10 text-accent">
-                5+ Projects
+                10+ Projects
               </Badge>
               <Badge variant="secondary" className="bg-chart-3/10 text-chart-3">
                 Community Focused

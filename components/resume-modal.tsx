@@ -37,15 +37,18 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             {/* Header */}
             <div className="text-center border-b border-border pb-6">
               <h1 className="text-3xl font-heading font-bold text-primary mb-2">Joanne Liszewski</h1>
-              <div className="flex flex-wrap justify-center items-center gap-4 text-sm text-muted-foreground">
+              <p className="text-sm text-muted-foreground mb-3">Full-Stack Developer | Phoenix, Arizona</p>
+              <div className="flex flex-wrap justify-center items-center gap-3 text-sm text-muted-foreground">
                 <div className="flex items-center gap-1">
                   <Mail className="h-4 w-4" />
-                  <span>joanneliszewski@gmail.com</span>
+                  <a href="mailto:joanneliszewski@gmail.com" className="hover:text-primary">joanneliszewski@gmail.com</a>
                 </div>
-                <div className="flex items-center gap-1">
-                  <MapPin className="h-4 w-4" />
-                  <span>Phoenix, Arizona, United States</span>
-                </div>
+                <span>|</span>
+                <a href="https://github.com/Jozewski" target="_blank" rel="noopener noreferrer" className="hover:text-primary">github.com/Jozewski</a>
+                <span>|</span>
+                <a href="https://linkedin.com/in/joanne-liszewski-437036125" target="_blank" rel="noopener noreferrer" className="hover:text-primary">linkedin.com/in/joanne-liszewski</a>
+                <span>|</span>
+                <a href="/" className="hover:text-primary">Portfolio</a>
               </div>
             </div>
 
@@ -53,69 +56,32 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Professional Summary</h2>
               <p className="text-sm leading-relaxed text-foreground">
-                Mission-driven Full Stack Developer specializing in accessible, user-centered web applications. Experienced in building scalable solutions with React, Node.js, Express, and MongoDB, including authentication systems, RESTful APIs, and AI-powered features. Combines technical development skills with a deep understanding of accessibility and UX principles gained through both professional experience and lived perspective as a visually impaired developer. Proficient in modern development workflows, collaborative Agile environments, and creating inclusive digital experiences that prioritize both functionality and usability.
+                Full-stack developer who builds accessible, AI-powered web applications with React, Node.js, TypeScript, and MongoDB. Shipped production features on an AI grant-management platform, including role-based authentication, document-analysis integration, and subscription UI. Accessibility specialist with WCAG 2.1 AA expertise grounded in lived experience as a visually impaired developer, and a track record of civic tech projects that make complex systems usable for the people who need them most.
               </p>
             </div>
 
             {/* Technical Skills */}
             <div>
               <h2 className="text-lg font-heading font-semibold text-primary mb-3">Technical Skills</h2>
-              <div className="space-y-3 text-sm">
+              <div className="space-y-2 text-sm">
                 <div>
-                  <strong>Languages and Frameworks:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• JavaScript (ES6+), TypeScript, HTML5, CSS3, React, Node.js, Express.js, MongoDB, Socket.io</div>
-                  </div>
+                  <strong>Languages:</strong> JavaScript (ES6+), TypeScript, Python, SQL, HTML5, CSS3
                 </div>
                 <div>
-                  <strong>Frontend Technologies:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• Tailwind CSS, Bootstrap, Responsive Design, Component-Based Architecture</div>
-                  </div>
+                  <strong>Frontend:</strong> React, Next.js, Vite, Tailwind CSS, Radix UI, Recharts, responsive and component-based design
                 </div>
                 <div>
-                  <strong>Backend and Database:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• RESTful API Development, NoSQL (MongoDB), JWT Authentication, Real-time Communication (Socket.io)</div>
-                  </div>
+                  <strong>Backend & Data:</strong> Node.js, Express, RESTful API design, MongoDB (Mongoose), PostgreSQL (Prisma, Neon), SQLite, JWT and Clerk authentication, Socket.io
                 </div>
                 <div>
-                  <strong>Development and Deployment Tools:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• Git, GitHub, GitLab, VS Code, Vercel, Chrome DevTools, Postman</div>
-                  </div>
+                  <strong>AI & Cloud:</strong> Retrieval-augmented generation (RAG), vector search, OpenAI and Gemini APIs, prompt engineering, AWS fundamentals, Vercel, Docker
                 </div>
                 <div>
-                  <strong>Accessibility and Testing:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• WCAG 2.1 AA Standards, Axe DevTools, NVDA/VoiceOver, Wave, Screen Reader Testing</div>
-                  </div>
+                  <strong>Accessibility:</strong> WCAG 2.1 AA, screen reader testing (NVDA, VoiceOver), Axe DevTools, WAVE, ARIA patterns
                 </div>
                 <div>
-                  <strong>Collaboration and Workflow:</strong>
-                  <div className="ml-4 space-y-1">
-                    <div>• Agile/Scrum Methodologies, JIRA, Notion, Confluence, Code Reviews, CI/CD Pipelines</div>
-                  </div>
+                  <strong>Workflow:</strong> Git, GitHub, GitHub Actions CI/CD, Vitest, Playwright, Postman, Agile/Scrum, JIRA, code reviews
                 </div>
-              </div>
-            </div>
-
-            {/* Core Competencies */}
-            <div>
-              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Core Competencies</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm">
-                <div>• Full-Stack Web Application Development</div>
-                <div>• RESTful API Design and Implementation</div>
-                <div>• Database Schema Design and Optimization</div>
-                <div>• Authentication and Authorization Systems (JWT, Role-Based Access Control)</div>
-                <div>• Real-Time Features and WebSocket Integration</div>
-                <div>• Responsive and Accessible UI/UX Development</div>
-                <div>• Component-Based Architecture with React</div>
-                <div>• AI Integration and Implementation</div>
-                <div>• Accessibility-First Development (WCAG 2.1 AA)</div>
-                <div>• Version Control and Collaborative Development</div>
-                <div>• Agile/Scrum Team Collaboration</div>
-                <div>• Performance Optimization and Core Web Vitals</div>
               </div>
             </div>
 
@@ -127,20 +93,17 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Full Stack Developer</h3>
-                    <p className="text-sm text-muted-foreground">Banyan Labs LLC – Phoenix, Arizona, United States</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Developer — Banyan Labs LLC</h3>
+                    <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">August 2025 - February 2026</span>
+                  <span className="text-sm text-muted-foreground">August 2025 – February 2026</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Collaborated with my team on full-stack development for Procure Path, an AI-powered grant management platform designed to help nonprofits streamline their grant acquisition process. Built scalable solutions enabling organizations to analyze grant opportunities, track deadlines, and receive intelligent matching recommendations.</div>
-                  <div className="font-semibold mt-2">Key Achievements:</div>
-                  <div>• Developed comprehensive authentication and authorization system with role-based access control</div>
-                  <div>• Designed and optimized database schemas for grant document storage and AI analysis results</div>
-                  <div>• Built complex React components for document analysis dashboard and grant matching interface</div>
-                  <div>• Implemented RESTful API endpoints for document upload, processing, and reporting features</div>
-                  <div>• Integrated AI-powered document analysis and scoring algorithms into the platform</div>
-                  <div>• Created responsive UI components for freemium pricing model and subscription management</div>
+                  <div>Built core features for ProcurePath, an AI-powered grant management platform that helps nonprofits find, match, and track grant opportunities.</div>
+                  <div>• Developed the authentication and authorization system with JWT and role-based access control.</div>
+                  <div>• Designed and optimized MongoDB schemas for grant document storage and AI analysis results.</div>
+                  <div>• Built React components for the document-analysis dashboard and grant-matching interface, and implemented the REST endpoints behind document upload, processing, and reporting.</div>
+                  <div>• Integrated AI document analysis and scoring into the platform, and created responsive UI for the freemium pricing and subscription flows.</div>
                 </div>
               </div>
 
@@ -148,17 +111,15 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Full Stack Web Development (Training)</h3>
-                    <p className="text-sm text-muted-foreground">Persevere – Phoenix, AZ</p>
+                    <h3 className="font-semibold text-foreground">Full Stack Web Developer (Apprenticeship) — Persevere</h3>
+                    <p className="text-sm text-muted-foreground">Phoenix, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">August 2024 – June 2025 (11 months)</span>
+                  <span className="text-sm text-muted-foreground">August 2024 – June 2025</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Built accessible, responsive web applications using React, Node.js, Express, and MongoDB</div>
-                  <div>• Applied UX heuristics and accessibility testing methods during project development</div>
-                  <div>• Learned to design APIs, validate RESTful architecture, and integrate testing into builds</div>
-                  <div>• Conducted peer code reviews and debugging in collaborative, Agile environments</div>
-                  <div>• Gained experience analyzing Core Web Vitals and front-end performance metrics</div>
+                  <div>Built accessible, responsive web applications with React, Node.js, Express, and MongoDB in a collaborative Agile team.</div>
+                  <div>• Designed REST APIs, integrated automated testing into builds, and conducted peer code reviews.</div>
+                  <div>• Applied UX heuristics, accessibility testing, and Core Web Vitals analysis across projects.</div>
                 </div>
               </div>
 
@@ -166,45 +127,83 @@ export function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
               <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Shelter Coordinator and Housing Advocate</h3>
-                    <p className="text-sm text-muted-foreground">Coalition for Compassion and Justice – Prescott, AZ</p>
+                    <h3 className="font-semibold text-foreground">Shelter Coordinator & Housing Advocate — Coalition for Compassion and Justice</h3>
+                    <p className="text-sm text-muted-foreground">Prescott, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2016–2018</span>
+                  <span className="text-sm text-muted-foreground">2016 – 2018</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Maintained precise documentation and data accuracy across multi-agency systems</div>
-                  <div>• Advocated for accessibility and clarity in communication to improve client engagement</div>
-                  <div>• Strengthened operational processes through organization, empathy, and problem-solving</div>
+                  <div>Maintained precise documentation and data accuracy across multi-agency systems while advocating for accessible, clear client communication.</div>
                 </div>
               </div>
 
               {/* Turn Key Solutions */}
-              <div>
+              <div className="mb-6">
                 <div className="flex justify-between items-start mb-2">
                   <div>
-                    <h3 className="font-semibold text-foreground">Customer Service Call Center Manager / GUI Programmer</h3>
-                    <p className="text-sm text-muted-foreground">Turn Key Solutions – Glendale, AZ</p>
+                    <h3 className="font-semibold text-foreground">Call Center Manager / GUI Programmer — Turn Key Solutions</h3>
+                    <p className="text-sm text-muted-foreground">Glendale, AZ</p>
                   </div>
-                  <span className="text-sm text-muted-foreground">2012–2016</span>
+                  <span className="text-sm text-muted-foreground">2012 – 2016</span>
                 </div>
                 <div className="space-y-1 text-sm">
-                  <div>• Supported front-end interface rollouts for tablet-based platforms used by major digital publications</div>
-                  <div>• Conducted user acceptance testing (UAT) for new features and updates</div>
-                  <div>• Supervised data entry accuracy, CMS updates, and technical troubleshooting</div>
+                  <div>Supported front-end interface rollouts for tablet platforms used by major digital publications; led user acceptance testing and supervised CMS updates and data accuracy.</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Projects */}
+            <div>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-4">Projects</h2>
+
+              {/* Be In The Know */}
+              <div className="mb-6">
+                <div className="mb-2">
+                  <h3 className="font-semibold text-foreground">Be In The Know / Just Ask JO — AI legal rights education platform</h3>
+                  <a href="https://beintheknowjustaskjo.com" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline">beintheknowjustaskjo.com</a>
+                </div>
+                <div className="space-y-1 text-sm">
+                  <div>Built a legal rights education platform for people navigating reentry, featuring JO, an AI assistant that answers questions on voting, expungement, housing, employment, police interactions, and supervision across all 50 states plus federal law.</div>
+                  <div>• Engineered a retrieval-augmented generation (RAG) chat system with Next.js, MongoDB Atlas Vector Search, and Gemini embeddings that answers only from human-approved, cited legal sources — and declines when no approved source exists.</div>
+                  <div>• Automated legislative monitoring with a LegiScan pipeline (Vercel cron) that flags law changes for human review; built the admin review dashboard, streaming chat with quota enforcement, and privacy-first accounts (hashed IPs, bcrypt, self-service deletion).</div>
                 </div>
               </div>
 
-              {/* Education and Certifications */}
-              <div>
-                <h2 className="text-lg font-heading font-semibold text-primary mb-3">Education and Certifications</h2>
-                <div className="space-y-2 text-sm">
-                  <div>• IBM Data Analytics Certificate – Coursera (2023)</div>
-                  <div>• Full Stack Web Development – Persevere Coding Program (2024–2025)</div>
-                  <div>• Prompt Engineering for ChatGPT – Vanderbilt University (2025)</div>
-                  <div>• AWS Cloud Practitioner Essentials – Amazon Web Services (2025)</div>
-                  <div>• Learn Python Specialization – Scrimba (2025)</div>
-                  <div>• Columbia University - AI Engineering Principles - Currently Enrolled</div>
+              {/* ProcurePath */}
+              <div className="mb-6">
+                <div className="mb-2">
+                  <h3 className="font-semibold text-foreground">ProcurePath — AI grant management platform (Banyan Labs)</h3>
+                  <a href="https://procurepath.ojt.banyanlabs.io" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline">procurepath.ojt.banyanlabs.io</a>
                 </div>
+                <div className="space-y-1 text-sm">
+                  <div>Team-built AI-powered grant platform helping nonprofits summarize, match, and track grant opportunities — Next.js and TypeScript frontend, Express backend, MongoDB, Clerk authentication, and Docker.</div>
+                  <div>• Contributed role-based access control, database schemas for grant documents and AI analysis results, document-analysis dashboard components, and REST endpoints for upload, processing, and reporting.</div>
+                </div>
+              </div>
+
+              {/* Four Tables */}
+              <div className="mb-6">
+                <div className="mb-2">
+                  <h3 className="font-semibold text-foreground">Four Tables — family recipe archive</h3>
+                  <a href="https://jozewski.tech" target="_blank" rel="noopener noreferrer" className="text-sm text-primary hover:underline">jozewski.tech</a>
+                </div>
+                <div className="space-y-1 text-sm">
+                  <div>Designed and shipped a full-stack recipe archive preserving Italian, Dutch, German, and Mexican family traditions — Next.js, React, TypeScript, Prisma, and PostgreSQL (Neon), with public browsing by tradition, holiday, and category.</div>
+                  <div>• Built contributor-only content management with signed HTTP-only cookie sessions, image uploads, family notes, and OpenAI-assisted recipe drafting; added SEO structured data and tested with Vitest and Playwright.</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Education & Certifications */}
+            <div>
+              <h2 className="text-lg font-heading font-semibold text-primary mb-3">Education & Certifications</h2>
+              <div className="space-y-1 text-sm">
+                <div>• AI Engineering Principles — Columbia University (in progress)</div>
+                <div>• AWS Cloud Practitioner Essentials — Amazon Web Services (2025)</div>
+                <div>• Full Stack Web Development — Persevere Coding Program (2024–2025)</div>
+                <div>• Learn Python Specialization — Scrimba (2025)</div>
+                <div>• Prompt Engineering for ChatGPT — Vanderbilt University (2025)</div>
+                <div>• IBM Data Analytics Certificate — Coursera (2023)</div>
               </div>
             </div>
           </div>
