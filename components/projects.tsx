@@ -17,7 +17,7 @@ export function Projects() {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Full-stack applications built to solve real-world challenges.
+            Applications built to solve real-world challenges.
           </p>
         </div>
 
@@ -29,10 +29,11 @@ export function Projects() {
               className="bg-background border-border overflow-hidden hover:shadow-xl transition-all duration-300 group max-w-3xl mx-auto"
             >
               <div>
-                <YouTubeEmbed 
+                <YouTubeEmbed
                   videoId={project.videoId}
                   title={project.title}
                   className="mx-auto w-full max-w-3xl h-[420px]"
+                  loop={true}
                 />
               </div>
               <CardHeader>

@@ -6,6 +6,38 @@ import Image from "next/image";
 export function Experience() {
   const experiences = [
     {
+      title: "Be In The Know · Just Ask JO",
+      company: "AI Augmented Builders Program - Next Chapter",
+      location: "Remote",
+      period: "2026",
+      description:
+        "Built as part of the AI Augmented Builders Program at Next Chapter, a program teaching justice-impacted individuals to become builders in the AI economy. Be In The Know is a plain-English legal rights education platform that translates approved legal source material into accessible guidance for people navigating reentry. The platform covers voting rights, expungement, housing, employment, and more across all 50 states plus federal law, with retrieval-first AI, human review gates, and source discipline ensuring every answer is grounded in cited, approved legal content.",
+      achievements: [
+        "Built retrieval-first AI workflow with Gemini embeddings and MongoDB Vector Search",
+        "Implemented human review gate ensuring only approved legal sources inform answers",
+        "Created automated legislative monitoring with LegiScan API tracking law changes across 50 states",
+        "Designed plain-language output targeting sixth-grade reading level for accessibility",
+        "Deployed production app with PII redaction, guest quotas, and security guardrails",
+        "Participated in Next Chapter's builder-focused curriculum emphasizing shipped work and real-world impact",
+      ],
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "MongoDB",
+        "Google Gemini",
+        "Vector Search",
+        "LegiScan API",
+        "Vercel",
+        "AI Integration",
+      ],
+      link: {
+        text: "Learn more about the AI Augmented Builders Program",
+        url: "https://www.nextchapterproject.org/builders"
+      }
+    },
+    {
       title: "Full-Stack Developer & Automation Specialist",
       company: "Building Web Applications and Workflows for Organizations",
       location: "Remote",
@@ -330,6 +362,32 @@ export function Experience() {
                     ))}
                   </div>
                 </div>
+
+                {experience.link && (
+                  <div className="mt-4 pt-4 border-t border-border">
+                    <a
+                      href={experience.link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary hover:underline text-sm font-medium flex items-center gap-1"
+                    >
+                      {experience.link.text}
+                      <svg
+                        className="h-4 w-4"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                )}
               </CardContent>
             </Card>
           ))}
